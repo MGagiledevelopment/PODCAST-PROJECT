@@ -1,0 +1,20 @@
+@import url(/css/menu-hamburguesa.css);
+
+.barra-navegacion {
+    border: 1px solid black;
+    width: 100%;
+    
+  }
+
+  nav{
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  #logo{
+    width:29px;
+  }

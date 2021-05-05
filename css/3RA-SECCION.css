@@ -1,0 +1,39 @@
+.celular-e-informacion {
+  border:3px solid green;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#celular {
+  border: 1px solid orangered;
+  width: 100%;
+  position: relative;
+}
+
+h3 {
+  border: 1px solid orangered;
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  font-weight: 400;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+  width: 70%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left:10px;
+  
+}
+
+#segundo-parrafo {
+    border:1px solid salmon;
+  font-family: 'IBM Plex Mono';
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 600;
+  
+}
