@@ -1,0 +1,55 @@
+@media  screen and (min-width: 768px) {
+    
+/* 3RA SECCION -------------------- */
+
+.celular-e-informacion {
+  flex-direction: row;
+  align-items: center;
+  padding-top: 60px;
+}
+#celular {
+  width: 30%;
+  margin: 0px 10px 0px 30px;
+  
+}
+
+h3 {
+  width: 80%;
+  margin-top: 50px;
+  
+}
+
+#segundo-parrafo {
+ 
+}
+
+/* 4TA SECCION -------------------- */
+
+.invitados {
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 33.3%;
+  }
+
+  h4 {
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+
+/* 5TA SECCION -------------------- */
+
+#icono-y-descripcion {
+    width: 200px;
+  }
+
+  .contenedor-topicos{
+    width:60%;
+  }
+
+   h5{
+     width:60%;}
+
+
+   }

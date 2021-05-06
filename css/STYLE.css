@@ -21,7 +21,11 @@ en esta hoja principal llamada STYLE.CSS */
 @import url(/css/FOOTER.CSS);
 
 /* MEDIA QUERIES */
+
+@import url(/css/MEDIA-768.css);
+
 @import url(/css/MEDIA-1200.css);
+
 
 
 /*  */

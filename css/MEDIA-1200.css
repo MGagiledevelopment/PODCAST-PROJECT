@@ -37,6 +37,10 @@
     text-decoration: line-through;
     color: rgba(6,10,36,0.56);
   }
+
+  a:visited, a:active{
+    color:black;
+  }
   /* 1RA SECCION -------------------- */
 
   .titulo-y-primerBoton {
@@ -49,10 +53,12 @@
   }
   h1 {
     padding-left: 5px;
+
   }
 
   #parrafo-principal {
-    width: 62%;
+    width: 40%;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
 
@@ -112,27 +118,14 @@
   #segundo-parrafo {
     width: 75%;
   }
-
-  /* 4TA SECCION -------------------- */
-
-  .invitados {
-    margin-bottom: 30px;
-  }
-
-  img {
-    width: 33.3%;
-  }
-
-  h4 {
-    margin-left: 15%;
-    margin-bottom: 20px;
-  }
-
+  
   /* 5TA SECCION -------------------- */
-
-  #icono-y-descripcion {
-    width: 200px;
+  .contenedor-topicos{
+    width:85%;
   }
+   h5{
+     width:80%;
+   }
 
   /* 6TA SECCION -------------------- */
 

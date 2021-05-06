@@ -17,28 +17,30 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-evenly;
   width: 250px;
-  height: 150px;
+  height: 180px;
   margin: 20px;
-  font-family: 'IBM Plex Sans';
-font-size: 18px;
-color: #060A24;
-letter-spacing: 0;
-text-align: center;
-font-weight:600;
-
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
 }
-  h5{
-    border:1px solid black;
-    width:90%;
-    font-family: 'IBM Plex Sans';
-    font-size: 36px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 42px;
-    padding:10px;
-    
-    font-weight: 400;
-    margin-top:30px;
-    }
-  
+span#icono-y-descripcion img{
+  border:1px solid purple;
+  width:50%;
+}
+h5 {
+  border: 1px solid black;
+  width: 90%;
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+  padding: 10px;
+  font-weight: 400;
+  margin-top: 30px;
+}

@@ -98,3 +98,9 @@ input.cuadrado-checkbox:checked ~ div.menu {
   border: 1px solid green;
   
 }
+
+
+a:visited, a:active{
+  color:white;
+  text-decoration:none ;
+}
