@@ -31,6 +31,12 @@ en esta hoja principal llamada STYLE.CSS */
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+}
+
+
 .contenedor {
   border: 1.5px solid blueviolet;
   width: 100%;
