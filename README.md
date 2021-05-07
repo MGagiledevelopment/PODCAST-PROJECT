@@ -16,7 +16,7 @@ El objetivo del proyecto se basa en la maquetación de una landing page siguiend
 
 En este último paso la configuracion fue la siguiente:
 
-**{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
