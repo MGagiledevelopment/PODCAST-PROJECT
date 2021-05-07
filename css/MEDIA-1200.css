@@ -66,35 +66,16 @@
     width: 226px;
   }
 
-  /* 2DA SECCION -------------------- */
+ /* 2DA SECCION */
+ h2 {
+  width: 50%;
+  margin-left: 170px;
+}
 
-  .episodios {
-    height: 850px;
-  }
+#primer-fondo-azul {
+  
+  height: 1000px;}
 
-  #primer-fondo-azul {
-    width: 99.5%;
-    height: 990px;
-    -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0% 100%);
-  }
-
-  .embebidos {
-    width: 100%;
-    height: 600px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  iframe {
-    width: 40%;
-    margin: 0;
-  }
-
-  h2 {
-    width: 70%;
-    margin-left: 170px;
-  }
 
   /* 3RA SECCION -------------------- */
 
@@ -103,6 +84,10 @@
     align-items: center;
     justify-content: center;
     padding: 0;
+    height: 100vh;
+    /* le di 100vh para que cuando haga el scroll al apretar los 
+    botones se vea la seccion en toda el area de visualizacion y quede prolijo
+    en la pantalla */
   }
   #celular {
     width: 30%;
