@@ -1,7 +1,6 @@
 /*----LABEL---- */
 
 .container-hamburguesa {
-  border: 1px solid red;
   width: 34px;
   height: 28px;
   position: relative;
@@ -94,10 +93,6 @@ input.cuadrado-checkbox:checked ~ div.menu {
   
 }
 
-.menu-mobile {
-  border: 1px solid green;
-  
-}
 
 
 a:visited, a:active{

@@ -1,5 +1,4 @@
 .invitados {
-  border: 1.5px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

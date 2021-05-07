@@ -9,7 +9,6 @@
   }
   
   #parrafo-principal {
-    border: 1px solid black;
     font-family: 'IBM Plex Mono', monospace;
     color: #060a24;
     letter-spacing: 0;
@@ -26,7 +25,6 @@
     color: #060a24;
     letter-spacing: 0;
     line-height: 42px;
-    border: 1px solid black;
     width: 91%;
    
     

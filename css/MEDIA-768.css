@@ -11,11 +11,11 @@
   }
 
   .embebidos {
-    width: 100%;
     height: 600px;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  
   }
 
   iframe {
@@ -48,9 +48,7 @@ h3 {
   
 }
 
-#segundo-parrafo {
- 
-}
+
 
 /* 4TA SECCION -------------------- */
 
@@ -67,6 +65,8 @@ h3 {
     margin-bottom: 20px;
   }
 
+
+  
 /* 5TA SECCION -------------------- */
 
 #icono-y-descripcion {
@@ -74,11 +74,12 @@ h3 {
   }
 
   .contenedor-topicos{
-    width:60%;
+    width:70%;
   }
 
    h5{
-     width:60%;}
+     
+     width:80%;}
 
 
    }

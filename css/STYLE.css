@@ -42,7 +42,6 @@ html {
 
 
 .contenedor {
-  border: 1.5px solid blueviolet;
   width: 100%;
   display: flex;
   flex-direction: column;

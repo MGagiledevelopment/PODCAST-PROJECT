@@ -8,13 +8,14 @@
     display: block;
   }
   nav {
-    border: 1px solid red;
-
     padding-left: 70px;
     padding-right: 70px;
   }
+  #logo{
+    width:39px;
+  }
+
   ul {
-    border: 1px solid blue;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -41,6 +42,11 @@
   a:visited, a:active{
     color:black;
   }
+
+  a{
+    text-decoration: none;
+  }
+  
   /* 1RA SECCION -------------------- */
 
   .titulo-y-primerBoton {
@@ -70,11 +76,12 @@
  h2 {
   width: 50%;
   margin-left: 170px;
+  padding-top: 20px;
 }
 
 #primer-fondo-azul {
   
-  height: 1000px;}
+  height: 1050px;}
 
 
   /* 3RA SECCION -------------------- */
@@ -104,6 +111,12 @@
     width: 75%;
   }
   
+  /* 4TA SECCION -------------------- */
+  h4 {
+    margin-left: 10.5%;
+    margin-bottom: 30px;
+  }
+
   /* 5TA SECCION -------------------- */
   .contenedor-topicos{
     width:85%;
