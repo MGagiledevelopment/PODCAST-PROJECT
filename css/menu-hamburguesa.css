@@ -22,8 +22,8 @@
   top: 25%;
 }
 
-.linea-med{
-  top:50%;
+.linea-med {
+  top: 50%;
 }
 
 .linea-bottom {
@@ -39,7 +39,6 @@
     rgb(0, 183, 255),
     blue
   );
-  
 }
 
 .cuadrado-checkbox:checked + .label-hamburguesa .linea-bottom {
@@ -51,12 +50,10 @@
     rgb(0, 183, 255) 70%,
     rgb(53, 241, 179)
   );
-  
 }
 
 .cuadrado-checkbox:checked + .label-hamburguesa .linea-med {
   opacity: 0;
-  
 }
 
 .cuadrado-checkbox {
@@ -68,7 +65,7 @@
 .menu {
   background-color: rgba(31, 11, 250);
   color: white;
-  position:fixed;
+  position: fixed;
   left: 0;
   top: 80px;
   width: 100%;
@@ -76,26 +73,25 @@
   transition: all 1s ease;
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
- 
-  
-  
 }
 
 .menu-items {
   padding: 25px;
 }
+.menu-items:hover{
+  color: #00f3bb;
+  text-decoration: line-through;
 
+}
 input.cuadrado-checkbox:checked ~ div.menu {
   position: absolute;
   width: 100vw;
   transform: translateX(0%);
-  
-  
 }
 
-
-
-a:visited, a:active{
-  color:white;
-  text-decoration:none ;
+a,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
 }

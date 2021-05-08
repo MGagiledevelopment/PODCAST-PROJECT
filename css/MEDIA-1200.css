@@ -44,6 +44,7 @@
   }
 
   a{
+    color:black;
     text-decoration: none;
   }
   
@@ -91,10 +92,6 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    height: 100vh;
-    /* le di 100vh para que cuando haga el scroll al apretar los 
-    botones se vea la seccion en toda el area de visualizacion y quede prolijo
-    en la pantalla */
   }
   #celular {
     width: 30%;
