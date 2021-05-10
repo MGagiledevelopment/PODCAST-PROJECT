@@ -12,7 +12,7 @@
 
 #contenedor-icons{
     display: flex;
-    width:250px;
+    width:280px;
     justify-content: space-evenly;
 }
 
@@ -22,7 +22,8 @@ div.footer p{
         color: #060a24;
         letter-spacing: 0;
         font-weight: 600; 
-}
+} 
 i:hover {
-    font-size: 21px;
+    font-size: 20px;
+    color:rgb(0 0 234);
   }
