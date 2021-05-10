@@ -2,15 +2,17 @@
   /* 1RA SECCION -------- */
   .titulo-y-primerBoton{
     height: 300px;
+    align-items: flex-start;
+    padding-left: 150px;
     
   }
 
   #parrafo-principal {
-    width:50%;
+    width:60%;
   }
 
  h1{
-   width:50%;
+   width:70%;
  }
  
 
