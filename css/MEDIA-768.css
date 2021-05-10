@@ -1,5 +1,20 @@
 @media  screen and (min-width: 768px) {
-  
+  /* 1RA SECCION -------- */
+  .titulo-y-primerBoton{
+    height: 300px;
+    
+  }
+
+  #parrafo-principal {
+    width:50%;
+  }
+
+ h1{
+   width:50%;
+ }
+ 
+
+  /* 2DA SECCION -------- */
   .episodios {
     height: 800px;
   }
