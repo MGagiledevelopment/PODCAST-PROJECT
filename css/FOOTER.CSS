@@ -14,6 +14,7 @@
     display: flex;
     width:280px;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 div.footer p{
@@ -24,6 +25,16 @@ div.footer p{
         font-weight: 600; 
 } 
 i:hover {
-    font-size: 20px;
-    color:rgb(0 0 234);
+    font-size: 21px;
+
+  }
+
+  #icono-instagram{
+       width:18px;
+
+  }
+
+  #icono-instagram:hover{
+    width:21px;
+    
   }
