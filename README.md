@@ -50,5 +50,7 @@ El principal obstáculo que se me presentó fue que comencé por un diseño "des
 
 2- Empezar por un diseño "mobile-first" es más simple. 
 
+3- Considero que para el proximo proyecto debo mejorar la semántica de HTML para otorgar mejor accesibilidad y funcionalidad.
+
 
 
