@@ -46,9 +46,12 @@ El principal obstáculo que se me presentó fue que comencé por un diseño "des
 
 # CONCLUSION 📃
 
-1- No tener miedo NUNCA al "volver a empezar", a veces ese camino te termina enseñando mucho.
+1- Empezar por un diseño "mobile-first" es más simple. 
 
-2- Empezar por un diseño "mobile-first" es más simple. 
+2- Considero que para el próximo proyecto debo mejorar la semántica de HTML para otorgar mejor accesibilidad y funcionalidad. 
+
+3- No tener miedo NUNCA al "volver a empezar", a veces ese camino te termina enseñando mucho. 
+
 
 
 
