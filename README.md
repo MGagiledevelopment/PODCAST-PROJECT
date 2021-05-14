@@ -38,7 +38,7 @@ En este último paso la configuracion fue la siguiente:
 
 # OBSTÁCULOS 📕
 
-El principal obstáculo que se me presentó fue que comencé por un diseño "desktop-first" y eso me trajo algunos problemas a la hora de interactuar con los media queries. Nunca pude identificar porque motivo ocurrió esto, pero decidí volver a comenzar el proyecto adoptando un diseño "mobile-first" y así pude solucionarlo.
+El principal obstáculo que se me presentó fue que comencé por un diseño "desktop-first" y eso me trajo algunos problemas a la hora de interactuar con los media queries. Asi que decidí volver a comenzar el proyecto adoptando un diseño "mobile-first" y de ese modo pude solucionarlo.
 
 # HERRAMIENTAS UTILIZADAS 🛠️
 
