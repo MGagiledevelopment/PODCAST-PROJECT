@@ -1,7 +1,7 @@
 # PODCAST-PROYECT
 Este es el proyecto que le da cierre al primer Sprint de trabajo en Acámica para la carrera de Desarrollo Web Front-End.
 
-## sitio en linea:
+## sitio en línea:
 https://channel-podcast.netlify.app/ 
 
 
