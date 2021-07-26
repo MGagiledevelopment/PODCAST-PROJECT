@@ -12,7 +12,7 @@ El objetivo del proyecto se basa en la maquetación de una landing page siguiend
 # PREPARACIÓN ⚙️
 
 1- Revisar cada requisito establecido para la entrega del proyecto.
-2- Armar un tablero "canva" para organizarme y administrar los tiempos. En el cual además comencé a establecer la manera de llevar a cabo el proyecto.
+2- Armar un tablero "kanban" para organizarme y administrar los tiempos. En el cual además comencé a establecer la manera de llevar a cabo el proyecto.
 3- Descargar los recursos brindados para el proyecto.
 4- Crear la carpeta y los archivos (HTML Y CSS).
 5- Configurar estilos inicilales. 
