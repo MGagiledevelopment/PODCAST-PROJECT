@@ -51,3 +51,14 @@ h6 {
     color: rgb(253, 253, 253);
     transform: translate(8px, 7.1px);
     transition: all 0.5s;}
+
+
+    .segundo-shadow-boton {
+      height: 45px;
+      width: 287px;
+      background-color: teal;
+      z-index: -6;
+      position: relative;
+      top: -38px;
+      left: 7.9px;
+    }
