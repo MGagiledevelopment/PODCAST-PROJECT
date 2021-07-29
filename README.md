@@ -57,7 +57,9 @@ El principal obstáculo que se me presentó fue que comencé por un diseño "des
 
 1- Empezar por un diseño "mobile-first" es más simple. 
 
-2- Considero que para el próximo proyecto debo mejorar la semántica de HTML para otorgar mejor accesibilidad y funcionalidad. 
+2- La semantica HTML está un poco desordenada y podria ser mejor utilizada para otorgar una mas accesibilidad y funcionalidad. 
+Tambien..el uso de "PIXELES" como unidad de medida en algunos casos arruina la accesibilidad y el responsive, asi que es mejor 
+utilizar unidades de medida relativas como por ejemplo "REM".
 
 3- No tener miedo NUNCA al "volver a empezar", a veces ese camino te termina enseñando mucho. 
 
