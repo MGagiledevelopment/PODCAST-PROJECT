@@ -1,0 +1,122 @@
+/* marquesina */
+/* 
+  .marquee {
+      margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    --offset: 40vw;
+    --move-initial: calc(30% + var(--offset));
+    --move-final: calc(-130% + var(--offset));
+    border-top:0.5px solid white;
+    border-bottom: 0.5px solid white;
+    background-color: rgba(111,239,190,0.3);
+    animation-play-state: running 
+}
+
+.marquee__inner {
+    
+    font-family: "IBM Plex Sans";
+    letter-spacing: 3px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    color:white;
+    height: 50px;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 11s linear infinite;
+    
+    
+
+    
+}
+.marquee__inner:hover{
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+.marquee .span {
+    font-size: 60px;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+   
+  
+    
+} */
+
+/* MARQUEE */
+:root {
+  --offset: 20vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+}
+
+.marquee {
+    margin-top: 20px;
+    background-color: rgba(111,239,190,0.3); 
+    color:white;
+  transition: all 0.5s;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: oblique;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.marquee-inner {
+  width: fit-content;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee 10s linear infinite;
+  animation-play-state: running;
+}
+.marquee-inner:hover {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.span-marquee {
+    /* border:1px solid red; */
+  white-space: nowrap;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  
+}
+#icon-marquee{
+    margin-left:37px;
+   margin-right:35px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(var(--move-initial));
+  }
+  100% {
+    transform: translateX(var(--move-final));
+  }
+}
+
+
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/STYLE.css" />
+    <title>PODCAST CHANNEL</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <!-- nav bar  -->
+      <header>
+        <div class="barra-navegacion">
+          <nav>
+            <img src="kit imagenes/logo.svg" id="logo" />
+
+            <div class="menu-mobile">
+              <input
+                type="checkbox"
+                id="cuadrado-checkbox"
+                class="cuadrado-checkbox"
+              />
+              <label class="label-hamburguesa" for="cuadrado-checkbox">
+                <div class="container-hamburguesa">
+                  <div class="linea linea-top"></div>
+                  <div class="linea linea-med"></div>
+                  <div class="linea linea-bottom"></div>
+                </div>
+              </label>
+
+              <div class="menu">
+                <a href="#episodios">
+                  <div class="menu-items">EPISODIOS</div>
+                </a>
+                <a href="#celular-e-informacion">
+                  <div class="menu-items">NOSOTROS</div></a
+                >
+                <a href="#invitados">
+                  <div class="menu-items">ENTREVISTAS</div></a
+                >
+                <a href="#temas"> <div class="menu-items">TÓPICOS</div></a>
+              </div>
+            </div>
+
+            <div class="menu-desktop">
+              <ul>
+                <a href="#episodios"> <li>EPISODIOS</li></a>
+                <a href="#celular-e-informacion"> <li>NOSOTROS</li></a>
+                <a href="#invitados"> <li>ENTREVISTAS</li></a>
+                <a href="#temas"> <li>TÓPICOS</li></a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- 1ra seccion -->
+        <div class="titulo-y-primerBoton">
+          <h1>
+            Hello <span id="world">world</span> pale blue dot<span id="dot"
+              >.</span
+            >
+          </h1>
+          <p id="parrafo-principal">
+            El portal de podcasts que explora el mundo de la programación y la
+            tecnología. Nuevos episodios, todos los jueves cada 15 días.
+          </p>
+          <a href="#temas">
+        
+            <button id="boton-principal">CONOCÉ MÁS</button>
+            <div class="shadow-boton"></div>
+          </a>
+        </div>
+      </header>
+      <!-- 2da seccion -->
+      <main>
+        <div class="episodios" id="episodios">
+          <div id="primer-fondo-azul"></div>
+          <h2>Episodios</h2>
+
+          <!-- <div class="marquee">
+            <div class="marquee__inner" aria-hidden="true">
+              <span>ESCUCHÁ TODOS NUESTROS EPISODIOS EN SPOTIFY</span>
+              
+            </div>
+          </div> -->
+
+          <div class="marquee running js-marquee">
+            <div class="marquee-inner">
+              <span class="span-marquee">
+                ESCUCHÁ TODOS NUESTROS EPISODIOS EN SPOTIFY
+                <i class="fab fa-spotify" id="icon-marquee"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="embebidos" id="embebidos">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+              width="584px"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+              width="584px"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            <iframe
+              src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+              width="584px"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            <iframe
+              src="https://open.spotify.com/embed/episode/2JNtbU4aCoc74GiBniFB6T"
+              width="100%"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+        <!-- 3ra seccion -->
+        <div class="celular-e-informacion" id="celular-e-informacion">
+          <img src="/kit imagenes/phone.png" alt="" id="celular" />
+          <div>
+            <h3>De dónde venimos</h3>
+            <p id="segundo-parrafo">
+              Our posturings, our imagined self-importance, the delusion that we
+              have some privileged position in the Universe, are challenged by
+              this point of pale light.<br />
+              <br />
+              Our planet is a lonely speck in the great enveloping cosmic dark.
+              In our obscurity, in all this vastness, there is no hint that help
+              will come from elsewhere to save us from ourselves.
+            </p>
+          </div>
+        </div>
+        <!-- 4ta seccion -->
+        <div class="invitados" id="invitados">
+          <h4>Invitadas/os estelares</h4>
+          <div class="imagenes" id="imagenes">
+            <img src="./kit imagenes/grace-hopper.png" alt="" />
+            <img src="./kit imagenes/Katie-Bouman.png" alt="" />
+            <img src="./kit imagenes/Margaret_Hamilton.png" alt="" />
+            <img
+              src="./kit imagenes/An E.R.A.Univac 1103 computer in the 1950s.png"
+              alt=""
+            />
+            <img
+              src="./kit imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+              alt=""
+            />
+            <img src="./kit imagenes/susan-kare.png" alt="" />
+          </div>
+        </div>
+        <!-- 5ta seccion -->
+        <div class="topicos" id="temas">
+          <h5>Algunos de nuestros temas</h5>
+          <div class="contenedor-topicos">
+            <span id="icono-y-descripcion"
+              ><div id="animation-icon"><img src="./kit imagenes/icon1.svg" alt="icono-topico" /><i class="fas fa-certificate"></i> </div>
+              <p>Trabajo remoto</p></span
+            >
+            <span id="icono-y-descripcion"
+              ><div id="animation-icon"><img src="./kit imagenes/icon2.svg" alt="icono-topico" /> <i class="fas fa-certificate"></i></div>
+              <p>
+                Repensando la<br />
+                programación
+              </p></span
+            >
+            <span id="icono-y-descripcion"
+              ><div id="animation-icon"><img src="./kit imagenes/icon3.svg" alt="icono-topico" /> <i class="fas fa-certificate"></i> </div>
+              <p>Bases del código</p></span
+            >
+            <span id="icono-y-descripcion"
+              ><div id="animation-icon"><img src="./kit imagenes/icon4.svg" alt="icono-topico" /> <i class="fas fa-certificate"></i></div>
+              <p>Seguridad informática</p></span
+            >
+          </div>
+        </div>
+        <!-- 6ta seccion -->
+        <div class="pre-footer">
+          <div class="segundo-fondo-azul"></div>
+          <h6>¿Querés las últimas novedades?</h6>
+          <a href="#episodios">
+            <button id="segundo-boton">ESCUCHÁ LOS EPISODIOS</button>
+            <div class="shadow-boton"></div></a
+          >
+        </div>
+      </main>
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer">
+          <p>© 2021— Created by Matias Gonzalez</p>
+          <span id="contenedor-icons">
+            <a
+              href="https://open.spotify.com/show/2Iibd5A6R7mxkCm4NwNmUn?si=diGjRqPBQZy0b4yB2clodQ"
+              target="_blank"
+            >
+              <i class="fab fa-spotify" width="18px"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/acamica/?hl=es-la"
+              target="_blank"
+            >
+              <img
+                src="/kit imagenes/instagram-square-brands.svg"
+                alt=""
+                id="icono-instagram"
+              />
+            </a>
+
+            <a href="https://twitter.com/acamica_com?lang=es" target="_blank">
+              <i class="fab fa-twitter" width="18px"></i
+            ></a>
+            <a href="https://www.facebook.com/Acamica.org/" target="_blank">
+              <i class="fab fa-facebook" width="18px"></i
+            ></a>
+            <a href="https://web.telegram.org/#/login" target="_blank">
+              <i class="fab fa-telegram" width="18px"></i
+            ></a>
+          </span>
+        </div>
+      </footer>
+
+      <!--este ultimo div cierra el contenedor-->
+    </div>
+    <!-- este ultimo div cierra el contenedor -->
+    <script src="scripts/utils.js"></script>
+  </body>
+</html>
