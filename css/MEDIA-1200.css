@@ -143,3 +143,13 @@
     margin-bottom: 30px;
   }
 }
+
+.shadow-boton {
+  height: 45px;
+  width: 287px;
+  background-color: teal;
+  z-index: -6;
+  position: relative;
+  top: -38px;
+  left: 7.9px;
+}
