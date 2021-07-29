@@ -3,7 +3,8 @@ Este es el proyecto que le da cierre al primer Sprint de trabajo en Acámica par
 
 # PREVIEW
 
-![preview](https://user-images.githubusercontent.com/83677143/127030224-80ee64bd-8b77-4f5c-9c0a-8455741d888b.gif)
+![preview](https://user-images.githubusercontent.com/83677143/127540714-fa600578-10b5-45bc-b7a0-da8f90fd7546.gif)
+
 
 
 ## SITIO EN LÍNEA:
