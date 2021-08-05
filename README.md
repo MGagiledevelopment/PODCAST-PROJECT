@@ -1,4 +1,4 @@
-# PODCAST-PROYECT
+# PODCAST-PROJECT
 Este es el proyecto que le da cierre al primer Sprint de trabajo en Acámica para la carrera de Desarrollo Web Front-End.
 
 # PREVIEW
